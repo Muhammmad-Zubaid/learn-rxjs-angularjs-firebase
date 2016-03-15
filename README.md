@@ -1,1 +1,1 @@
-# learn-rxjs-firebase
+# Learn Reactive Firebase using Rxjs Version 5 and Firebase SDK
