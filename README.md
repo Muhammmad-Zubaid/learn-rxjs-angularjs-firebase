@@ -1,4 +1,4 @@
-# Learn Reactive Firebase using Rxjs Version 5 and Firebase SDK
+# Learn Reactive Firebase using Rxjs 4.1, AngularJS 1.5 and Firebase SDK
 
 Start your journey by learning Reactive Programming 
 
