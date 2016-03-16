@@ -46,7 +46,7 @@ usersRef.update({"zia": {
   location: "Karachi"
 }});
 
-var source = postsRef.observe('child_added');
+var source = usersRef.observe('child_added');
 console.log(source instanceof Rx.Observable);
 source.subscribe(function(changeData) {
         // If event type is 'value', changeData is a DataSnapshot
