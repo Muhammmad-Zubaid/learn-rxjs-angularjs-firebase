@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+  <title>Angular and RxJS Sample in ES5 directly in Browser</title>
+ 
+  <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/bootstrap/3.2.0/css/bootstrap.min.css"> 
+</head>
+
+<body ng-app="example">
+  <div class="container" ng-controller="AppCtrl">
+        <div class="page-header">
+            <h1>Reactive Angular and Firebase</h1>
+        </div>
+        <ul>
+            <li ng-repeat="user in users">{{user.data.name}}</li>
+        </ul>
+    
+    </div>
+    <!-- make sure you include angular before Rx -->
+   <script src="node_modules/angular/angular.js"></script>
+   <script src="node_modules/rx/dist/rx.all.js"></script>
+   <script src="node_modules/rx-angular/dist/rx.angular.js"></script>
+   <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+   <script src="app/main.js"></script>
+</body>
+</html>
+
