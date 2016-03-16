@@ -1,13 +1,7 @@
-Using AngularJS 1.5 with Rxjs:
+Using AngularJS 1.5 with Rxjs and Firebase:
 
 https://github.com/Reactive-Extensions/rx.angular.js
 
-https://github.com/Reactive-Extensions/rx.angular.js/tree/master/examples/scopescheduler
-
-
-Using RxJS 4.1 straight from browser (ES5)
-
-https://github.com/Reactive-Extensions/RxJS
-
+https://gist.github.com/gsoltis/ee20138502a4764650f2
 
 
